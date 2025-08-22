@@ -5,4 +5,8 @@ module com.workshop.workshopjavafxjdbc {
 
     opens com.workshop.workshopjavafxjdbc to javafx.fxml;
     exports com.workshop.workshopjavafxjdbc;
+    exports model.services;
+    exports entities;
+
+
 }
